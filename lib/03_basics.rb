@@ -11,5 +11,13 @@ def who_is_bigger(a, b, c)
 end
 
 def reverse_upcase_noLTA(string)
-    string.reverse!.upcase!.delete"LTA"
+    return string.reverse!.upcase!.delete"LTA"
+end
+
+def array_42(array)
+    return array.include?(42)
+end
+
+def magic_array(array)
+    array.flatten(1).sort.map{|x| x*2}.delete if 
 end
