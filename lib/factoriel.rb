@@ -1,0 +1,3 @@
+def facteur(a)
+    
+end
